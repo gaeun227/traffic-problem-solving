@@ -1,0 +1,16 @@
+# Local credentials and environments
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+
+# Future raw or restricted datasets
+data/raw/
+data/private/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
